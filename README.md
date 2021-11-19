@@ -1,4 +1,4 @@
-#### PHP实现apple授权web登录
+# PHP实现apple授权web登录
 
 苹果如何生成相关参数，可以参考下面文章
 
@@ -6,13 +6,11 @@
 
 提供了两种解决方案（method01和method02），两种解决方案的原理是一样的
 
-关于method01在已经安装了ruby的情况下执行
+关于method01，要安装jwt库，需要在已经安装了ruby的情况下执行：
 
 ```
 gem install jwt
 ```
-
-去安装需要jwt库
 
 然后执行脚本：
 
